@@ -1,0 +1,375 @@
+.App1{
+    background-color: red;
+  }
+  
+  .Card{
+    list-style-type: none;
+    /* text-align: center; */
+    background-color: rgb(239, 255, 255);
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 7px gray;
+  }
+  
+  .MainCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* width: 900px; */
+    /* justify-content: space-evenly; */
+    margin: auto;
+  }
+  @media screen and (max-width: 676px) {
+    .MainCard {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .MainCard {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+  .MainCard1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: auto;
+    justify-content: space-evenly;
+  }
+  @media screen and (max-width: 976px) {
+    .MainCard1 {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .MainCard1 {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .css-heg063-MuiTabs-flexContainer {
+      display: flex;
+      flex-direction: column;
+    }
+   
+  }
+  @media screen and (max-width: 476px) {
+    .MainCard1 {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .css-1fo1ewe-MuiPaper-root-MuiTableContainer-root {
+      width: 500px !important;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .css-1fo1ewe-MuiPaper-root-MuiTableContainer-root {
+      width: 400px !important;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .css-1fo1ewe-MuiPaper-root-MuiTableContainer-root {
+      width: 300px !important;
+    }
+  }
+
+ 
+
+  
+  .CardImg{
+    height: 150px;
+    width: 140px;
+    box-shadow: 1px 1px 5px gray;
+  }
+
+
+  .boxMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    width: 100%;
+    background-color: red;
+  }
+
+  .box1{
+    width: 50%;
+    background-color: green;
+  }
+  .box2{
+    width: 70%;
+    background-color: aqua;
+  }
+
+  .inputColor{
+    background-color: #fff !important;
+  }
+  .btnhover:hover{
+    background-color: white !important;
+    color: black;
+  }
+  .btnhover{
+    margin-top: 20px !important;
+  }
+
+
+  #fade-button{
+    color: white;
+    background-color: rgba(228, 228, 228, 0.705);
+  }
+
+  .MuiAppBar-colorPrimary{
+    background-color: #050A30 !important;
+  }
+
+  .marginleftLogo{
+    margin: 20px;
+    display: flex;
+  }
+
+  .btnX{
+    color: black !important;
+    background-color: rgb(214, 214, 214) !important;
+    padding: 0 !important;
+    margin:0 !important;
+    min-width: 30px !important;
+  }
+
+  .wImg{
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+  }
+  
+  .btnW{
+    position: absolute !important;
+    left: 20%;
+    top: 58%;
+    padding: 10px 50px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .btnW:hover,  .btnM:hover, .btnE:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    border: none;
+  }
+
+  .mImg{
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+  }
+  
+  .btnM{
+    position: absolute !important;
+    left: 10%;
+    top: 75%;
+    padding: 10px 50px 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  .eImg{
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+  }
+  
+  .btnE{
+    position: absolute !important;
+    left: 10%;
+    top: 80%;
+    padding: 10px 50px 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  .eText{
+    position: absolute !important;
+    left: 10%;
+    top: 20%;
+  }
+
+  .eText1{
+    font-size: 60px !important;
+    margin: 0;
+  }
+
+@media screen and (max-width: 676px) {
+    .eText1{
+      font-size: 40px !important;
+      margin: 0;
+  }
+}
+ 
+   
+  .imgBanner{
+    height: 100%;
+    width: 100%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-family: acumin-pro, system-ui, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    align-items: start;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    margin-top: 45px;
+    color: #ffffff;
+    background-color: #050A30;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #a7a7a7;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
+
+  .addProbtn {
+    background-color: black !important;
+    color: white !important;
+  }
+
+.proint{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  margin-top: 12px;
+  padding: 9px;
+  width: 210px;
+}
