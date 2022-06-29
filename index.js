@@ -41,6 +41,6 @@ mongoose.connect(process.env.DB)
     console.log({err})
   })  
 
-app.listen(PORT, "0.0.0.0", function () {
+app.listen(PORT, function () {
   console.log(`Ecommerce app listening on port ${PORT}!`);
 });
