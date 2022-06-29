@@ -1,6 +1,6 @@
-import cors from 'cors'
 import express from 'express';
 import mongoose from 'mongoose';
+import cors from 'cors'
 import userRoute from './routes/user.route';
 import categoryRoute from './routes/category.route';
 import subcategoryRoute from './routes/subcategory.route';

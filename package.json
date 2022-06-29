@@ -1,6 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "engines": {
     "node": "16.14.2",
     "npm": "8.5.0"
