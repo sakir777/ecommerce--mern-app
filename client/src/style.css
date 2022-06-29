@@ -373,3 +373,10 @@
   padding: 9px;
   width: 210px;
 }
+.modalImg{
+  width: 100%;
+  /* height: 200px; */
+}
+.modalP {
+  margin-left: 20px;
+}
